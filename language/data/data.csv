@@ -1,0 +1,472 @@
+text,expected_language
+"Здравствуйте, мой багаж не прибыл рейсом SU123.",ru
+"Почему мой рейс в Санкт-Петербург отменили?",ru
+"Не могу завершить онлайн-регистрацию, сайт выдает ошибку.",ru
+"Обслуживание на борту было превосходным, спасибо экипажу.",ru
+"Мой чемодан поврежден, ручка сломана.",ru
+"Приложение постоянно зависает при попытке купить билет.",ru
+"Рейс задерживается уже на три часа, когда будет информация?",ru
+"Хочу оставить жалобу на грубость сотрудника на стойке регистрации.",ru
+"Еда в самолете была холодной.",ru
+"Как мне получить компенсацию за отмену рейса?",ru
+"Потерял посадочный талон, что делать?",ru
+"Не получается оплатить билет картой, платеж не проходит.",ru
+"Спасибо за помощь с перебронированием.",ru
+"В салоне было очень грязно.",ru
+"Могу ли я выбрать место у окна?",ru
+"Сайт не показывает мое бронирование.",ru
+"За сколько начинается посадка на рейс до Москвы?",ru
+"Мой багаж улетел в другой город, как его вернуть?",ru
+"Сиденье не откидывалось на протяжении всего полета.",ru
+"Положительный отзыв о работе бортпроводников.",ru
+"Почему не работает Wi-Fi на борту?",ru
+"Проблема с оплатой дополнительного багажа онлайн.",ru
+"Рейс перенесен на завтра, где нам остановиться?",ru
+"Как связаться со службой поддержки клиентов?",ru
+"Еда была очень вкусной, особенно курица.",ru
+"Мой чемодан вскрыли и украли вещи.",ru
+"Не могу найти свой выход на посадку.",ru
+"Приложение не обновляет статус рейса.",ru
+"Задержка выдачи багажа уже больше часа.",ru
+"Сотрудник на стойке регистрации был очень вежлив и помог.",ru
+"Очень неудобные кресла, мало места для ног.",ru
+"Ошибка 404 на странице выбора места.",ru
+"Нам предоставили ваучер на питание из-за задержки?",ru
+"Отличный сервис, полечу с вами снова.",ru
+"В туалете не было мыла.",ru
+"Мой багаж до сих пор не найден, прошло уже три дня.",ru
+"Не могу добавить мильную карту в профиль.",ru
+"Информация о задержке рейса пришла слишком поздно.",ru
+"Очень грубый персонал на гейте.",ru
+"Комфортный перелет, мягкая посадка.",ru
+"Проблема с мобильным посадочным талоном, сканер не считывает.",ru
+"Рейс отменен из-за погодных условий, каковы мои дальнейшие действия?",ru
+"Нейтральный отзыв, все было нормально.",ru
+"Питание не соответствует заказанному (вегетарианское).",ru
+"Хочу поменять дату вылета, но сайт не позволяет.",ru
+"В моем чемодане не хватает нескольких вещей.",ru
+"Посадка была очень жесткой.",ru
+"Как оформить возврат билета?",ru
+"Очень мало места для ручной клади.",ru
+"Приложение не дает выбрать место.",ru
+"Наш рейс объединили с другим, и мы сидим в разных концах салона.",ru
+"Бортпроводники были очень внимательны.",ru
+"Еда была безвкусной.",ru
+"Когда начнут выдавать багаж с рейса FV601?",ru
+"Не могу войти в личный кабинет на сайте.",ru
+"Задержка рейса по техническим причинам.",ru
+"Можно ли получить плед?",ru
+"Спасибо, все было отлично.",ru
+"Чемодан приехал весь мокрый.",ru
+"Кнопка вызова стюардессы не работала.",ru
+"Ошибка при бронировании билета для младенца.",ru
+"Сколько еще ждать вылета?",ru
+"Почему на борту не было вегетарианских опций?",ru
+"Сотрудники колл-центра не могут решить мою проблему.",ru
+"Багаж пришел, но на нем новая трещина.",ru
+"Система развлечений не работала весь полет.",ru
+"Не могу распечатать посадочный талон.",ru
+"Отменили рейс без предупреждения.",ru
+"Персонал был очень дружелюбным и услужливым.",ru
+"В салоне было слишком холодно.",ru
+"Потеряли детскую коляску при выгрузке багажа.",ru
+"Веб-сайт не загружается на моем компьютере.",ru
+"Какова причина задержки?",ru
+"Могу я получить стакан воды?",ru
+"Отвратительное отношение к пассажирам.",ru
+"При попытке оплаты страница зависла, а деньги списались.",ru
+"Багажная лента остановилась и не работает.",ru
+"Очень чистый и опрятный салон самолета.",ru
+"Мое место было занято другим пассажиром.",ru
+"Не работает форма обратной связи на сайте.",ru
+"Вылет откладывается на неопределенное время.",ru
+"Хочу выразить благодарность пилотам за мягкую посадку в сложных условиях.",ru
+"Наушники для просмотра фильмов были сломаны.",ru
+"Не могу найти информацию о норме провоза багажа.",ru
+"Мой чемодан не был загружен на рейс.",ru
+"Приложение показывает неверный номер выхода на посадку.",ru
+"Мне нужна помощь с регистрацией.",ru
+"Пересадили на другое место без моего согласия.",ru
+"Еда была лучше, чем я ожидал.",ru
+"Как подать заявление на розыск багажа?",ru
+"Не могу использовать промокод при покупке.",ru
+"Сотрудник службы поддержки был очень некомпетентен.",ru
+"Сколько времени займет получение компенсации?",ru
+"Взлет и посадка прошли идеально.",ru
+"Колесико у чемодана отломано.",ru
+"Сайт ужасно медленный.",ru
+"Нас не покормили, хотя полет длился 4 часа.",ru
+"Как изменить имя в билете?",ru
+"Очень тесно сидеть, колени упираются.",ru
+"Рейс отменен, как вернуть деньги?",ru
+"Спасибо!",ru
+"Помогите",ru
+"Отмена",ru
+"Багаж",ru
+"Ужасно",ru
+"Отлично",ru
+"Почему?",ru
+"Задержка",ru
+"Сломано",ru
+"Ошибка",ru
+"Не работает",ru
+"Когда вылет?",ru
+"Где мой багаж?",ru
+"Как вернуть билет?",ru
+"Плохой сервис",ru
+"Очень хорошо",ru
+"Проблема с сайтом",ru
+"Холодная еда",ru
+"Грубый персонал",ru
+"Потеряли чемодан",ru
+"Не могу оплатить",ru
+"Рейс отложили",ru
+"Грязно в салоне",ru
+"Спасибо экипажу",ru
+"Мало места",ru
+"Неудобно",ru
+"Все понравилось",ru
+"Жалоба",ru
+"Вопрос",ru
+"Информация о рейсе",ru
+"Компенсация",ru
+"Сломанное кресло",ru
+"Онлайн-регистрация",ru
+"Мобильное приложение",ru
+"Служба поддержки",ru
+"Выбор места",ru
+"Дополнительный багаж",ru
+"Посадочный талон",ru
+"Выход на посадку",ru
+"Ручная кладь",ru
+"Система развлечений",ru
+"Ваучер на питание",ru
+"Технические причины",ru
+"Погодные условия",ru
+"Возврат денег",ru
+"Перебронирование",ru
+"Мильная карта",ru
+"Обратная связь",ru
+"Нормы провоза",ru
+"Розыск багажа",ru
+"Промокод",ru
+"Личный кабинет",ru
+"Мое бронирование",ru
+"Статус рейса",ru
+"Детская коляска",ru
+"Вегетарианское питание",ru
+"Я не могу найти свой booking на сайте.",ru
+"Нужно пройти check-in как можно скорее.",ru
+"Где находится priority pass лаунж?",ru
+"Информация на gate изменилась.",ru
+"Мой e-ticket не приходит на почту.",ru
+"Можно ли получить апгрейд класса обслуживания?",ru
+"Сотрудник на стойке information desk мне очень помог.",ru
+"Наш рейс овербукинг, что делать?",ru
+"Где можно получить tax free?",ru
+"У меня есть stopover в Дубае, нужна ли виза?",ru
+"Рейс SU145 задерживается на 40 минут.",ru
+"Сайт не позволяет выбрать место, пишет 'error'.",ru
+"Мой багаж был поврежден во время перелета.",ru
+"Спасибо бортпроводникам за отличный сервис.",ru
+"Не могу завершить онлайн check-in.",ru
+"Питание на борту было невкусным.",ru
+"Когда начнется посадка на рейс до Сочи?",ru
+"Приложение вашей авиакомпании не работает на моем телефоне.",ru
+"Как мне получить компенсацию за отмененный рейс?",ru
+"Чемодан приехал без одного колеса.",ru
+"Очень грубый сотрудник на стойке регистрации.",ru
+"В салоне самолета было очень чисто.",ru
+"Не проходит оплата билета на сайте.",ru
+"Рейс задерживается из-за плохой погоды.",ru
+"Потеряли мой посадочный талон.",ru
+"Экипаж был очень профессиональным.",ru
+"Кресло не откидывалось.",ru
+"Могу ли я сдать в багаж эту коробку?",ru
+"Сайт выдает ошибку при попытке бронирования.",ru
+"Почему так долго не выдают багаж?",ru
+"Еда была холодной и несвежей.",ru
+"Спасибо за помощь и быстрое решение проблемы.",ru
+"Рейс отменен, а мне никто не сообщил.",ru
+"Как я могу связаться с вашей службой поддержки?",ru
+"На чемодане появились глубокие царапины.",ru
+"Приложение зависает на этапе оплаты.",ru
+"Очень комфортный перелет, спасибо.",ru
+"Не могу найти свой выход на посадку, помогите.",ru
+"Сиденья очень узкие.",ru
+"Не получается добавить багаж к существующему бронированию.",ru
+"Задержка рейса уже 5 часов.",ru
+"Персонал на борту был очень внимательным.",ru
+"Из моего чемодана пропали некоторые вещи.",ru
+"Сайт не работает уже несколько часов.",ru
+"Когда будет следующая информация о рейсе?",ru
+"Хочу поблагодарить стюардессу Анну за ее работу.",ru
+"В туалете не было бумаги.",ru
+"Я оставил свой планшет в самолете, как его вернуть?",ru
+"Ошибка при вводе данных паспорта.",ru
+"Рейс перенесли на другое время.",ru
+"Все было на высшем уровне.",ru
+"Мой багаж улетел в другой город.",ru
+"Кнопка вызова бортпроводника не работала.",ru
+"Сайт не принимает мою карту для оплаты.",ru
+"Рейс отменен из-за технической неисправности.",ru
+"Очень вежливые сотрудники на стойке.",ru
+"В салоне было слишком душно.",ru
+"Повредили ручку чемодана.",ru
+"Не могу войти в свой личный кабинет.",ru
+"Задержка вылета без объяснения причин.",ru
+"Хорошее обслуживание, вкусная еда.",ru
+"Экран мультимедийной системы не работал.",ru
+"Как мне зарегистрироваться на рейс?",ru
+"Мой чемодан не прибыл.",ru
+"Приложение показывает неправильное время вылета.",ru
+"Спасибо за гладкий полет.",ru
+"Мое место было грязным.",ru
+"Не могу найти свое бронирование по номеру.",ru
+"Рейс задерживается на неопределенный срок.",ru
+"Бортпроводники игнорировали мои просьбы.",ru
+"Багаж приехал вскрытый.",ru
+"Сайт не дает мне выбрать питание.",ru
+"Когда мы вылетим?",ru
+"Обслуживание было безупречным.",ru
+"Очень неудобное расписание стыковочных рейсов.",ru
+"Мой чемодан был полностью разбит.",ru
+"Страница оплаты на сайте не загружается.",ru
+"Рейс отменили и не предложили альтернативу.",ru
+"Сотрудник на гейте был очень груб.",ru
+"В самолете было чисто и комфортно.",ru
+"Не могу оплатить дополнительный багаж онлайн.",ru
+"На сколько задерживается рейс?",ru
+"Отличная работа всего экипажа.",ru
+"Из багажа украли дорогие духи.",ru
+"Приложение вылетает при поиске билетов.",ru
+"Почему отменили рейс в последний момент?",ru
+"Хочу оставить жалобу на обслуживание.",ru
+"Очень вкусный обед на борту.",ru
+"Потеряли мою сумку с документами.",ru
+"Не могу изменить дату в билете через сайт.",ru
+"Нас не предупредили о задержке.",ru
+"Все было прекрасно, спасибо за полет.",ru
+"Кресло было сломано.",ru
+"Не могу найти информацию о ручной клади.",ru
+"Мой багаж отправили другим рейсом.",ru
+"Приложение не показывает мой посадочный талон.",ru
+"Рейс задерживается на час.",ru
+"Персонал очень помог с ребенком.",ru
+"В салоне был неприятный запах.",ru
+"Чемодан сильно испачкан.",ru
+"Сайт не позволяет мне зарегистрироваться.",ru
+"Рейс отменен. Что дальше?",ru
+"Спасибо за вашу работу.",ru
+"Мультимедийная система зависала.",ru
+"Где я могу взвесить свой багаж?",ru
+"Мой багаж не прилетел, куда обращаться?",ru
+"Не работает онлайн-табло на сайте.",ru
+"Рейс задерживается на 2 часа.",ru
+"Очень внимательные стюардессы.",ru
+"В моем чемодане сломаны вещи.",ru
+"Приложение выдает ошибку при оплате.",ru
+"Почему рейс отменили?",ru
+"Негативный опыт общения со службой поддержки.",ru
+"Еда была свежей и горячей.",ru
+"Потерян багаж, в нем важные лекарства.",ru
+"Сайт не загружает страницу выбора мест.",ru
+"Нас держат в самолете уже час без объяснений.",ru
+"Хочу похвалить работу пилотов.",ru
+"В наушниках не было звука.",ru
+"Как зарегистрироваться, если нет принтера?",ru
+My luggage has been lost on flight BA2490.,en
+"The website crashed while I was trying to book a flight, and now the price has gone up.",en
+Why was my flight to New York cancelled?,en
+The cabin crew was exceptionally friendly and helpful.,en
+My suitcase arrived with a broken wheel.,en
+Your app is very slow and keeps freezing.,en
+"The flight is delayed by over two hours, is there any update?",en
+I would like to file a complaint about a rude check-in agent.,en
+The meal served on board was cold and tasteless.,en
+How can I claim compensation for a cancelled flight?,en
+My credit card payment is not being accepted on your website.,en
+Thank you for your assistance with rebooking my flight.,en
+The aircraft cabin was not clean.,en
+Is it possible to select a seat by the window?,en
+My booking reference is not found on the website.,en
+What time does boarding start for the flight to Dubai?,en
+My luggage was sent to the wrong destination.,en
+"The seat was broken and wouldn't recline.",en
+Positive feedback for the excellent service from the flight attendants.,en
+The in-flight Wi-Fi was not working.,en
+I'm having trouble paying for extra baggage online.,en
+"Our flight was moved to tomorrow, will you provide hotel accommodation?",en
+How can I contact customer service?,en
+My suitcase was opened and some items are missing.,en
+I can't find my departure gate.,en
+The mobile app isn't updating the flight status.,en
+"We've been waiting for our bags for over an hour now.",en
+The staff at the check-in counter was very polite and efficient.,en
+The seats are very uncomfortable with no legroom.,en
+"I'm getting a 'payment failed' error.",en
+Will we be given food vouchers for the delay?,en
+There was no soap in the lavatory.,en
+My bag is still missing after three days of my arrival.,en
+"I can't add my frequent flyer number to my profile.",en
+The flight delay notification came too late.,en
+The ground staff at the gate were very rude.,en
+It was a comfortable flight with a smooth landing.,en
+The scanner can't read my mobile boarding pass.,en
+"Flight cancelled due to weather, what are my options?",en
+"Neutral feedback, the experience was just okay.",en
+I ordered a vegan meal but received a regular one.,en
+The baggage claim area is a chaos.,en
+The website is not user-friendly at all.,en
+What is the reason for this long delay?,en
+Terrible attitude from the customer service representative.,en
+"The payment page froze, but the money was taken from my account.",en
+The baggage carousel has stopped working.,en
+The cabin of the plane was very clean and modern.,en
+Another passenger was sitting in my assigned seat.,en
+The contact form on your website is broken.,en
+The departure is postponed indefinitely.,en
+I want to commend the pilots for a very smooth landing in difficult weather.,en
+The headphones provided for the entertainment system were broken.,en
+I can't find information about the baggage allowance.,en
+My suitcase was not loaded onto the plane.,en
+The app is showing the wrong gate number.,en
+I need assistance with the check-in process.,en
+My seat was changed without any notification.,en
+The meal was better than I expected on a short-haul flight.,en
+How do I file a report for a lost baggage?,en
+The discount code is not working at checkout.,en
+The support agent I spoke to was completely unhelpful.,en
+How long will it take to receive my compensation?,en
+The take-off and landing were perfectly smooth.,en
+A wheel was broken off my suitcase.,en
+Your website is extremely slow to load.,en
+"We were not offered any food on a 4-hour flight.",en
+How can I change the passenger name on a ticket?,en
+"It's very cramped, my knees are hitting the seat in front.",en
+The check-in process was fast and easy.,en
+The in-flight entertainment screen was not working.,en
+I have a question about my booking.,en
+My baggage is damaged.,en
+The app crashed during payment.,en
+The flight is delayed again.,en
+The staff was very unhelpful.,en
+The food was inedible.,en
+Where is the lost and found office?,en
+I cannot check-in online.,en
+The flight was cancelled without any prior notice.,en
+The customer service was excellent.,en
+The plane was dirty.,en
+I can't find my booking on your app.,en
+"Great flight, thank you to the crew.",en
+The seat was broken.,en
+What is the baggage allowance for this flight?,en
+My bag did not arrive.,en
+The website is down.,en
+What's the status of flight LH456?,en
+Very rude ground crew.,en
+The on-board meal was delicious.,en
+My luggage has been stolen.,en
+"I'm unable to change my flight details online.",en
+We were not informed about the gate change.,en
+"A very pleasant journey, thank you.",en
+The recline button on my seat is jammed.,en
+Help! ,en
+Lost baggage,en
+Cancelled,en
+Thank you,en
+Complaint,en
+Help,en
+Delayed,en
+Broken,en
+Error,en
+Website problem,en
+Bad food,en
+Rude staff,en
+Lost my bag,en
+Payment issue,en
+Flight delayed,en
+Dirty cabin,en
+Thanks crew,en
+No legroom,en
+Uncomfortable,en
+Good experience,en
+Question,en
+Flight info,en
+Compensation?,en
+Broken seat,en
+Online check-in,en
+Mobile app,en
+Customer support,en
+Seat selection,en
+"Mein Gepäck ist auf dem Flug nach Berlin verloren gegangen.",de
+Warum wurde mein Flug annulliert?,de
+Das Kabinenpersonal war außerordentlich freundlich.,de
+"Mein Koffer kam mit einem Riss an.",de
+Ihre App funktioniert nicht richtig.,de
+Ich möchte eine Beschwerde über unhöfliches Personal einreichen.,de
+Das Essen an Bord war kalt.,de
+"Wie beantrage ich eine Entschädigung für den Flugausfall?",de
+Ich kann meine Bordkarte nicht finden.,de
+"Die Online-Zahlung schlägt fehl.",de
+"Vielen Dank für den tollen Service, das war super.",de
+Das Flugzeug war innen nicht sauber.,de
+Ich kann meinen Sitzplatz nicht online auswählen.,de
+"Mein Koffer wurde beschädigt, ein Rad ist ab.",de
+Der Check-in-Schalter öffnet wann?,de
+Das Essen war überraschend lecker.,de
+Hilfe,de
+Gepäckverlust,de
+Annulliert,de
+Danke,de
+Kaputt,de
+"Flug verspätet.",de
+Schlechter Service,de
+"Mi equipaje no ha llegado en el vuelo IB345.",es
+El sitio web me da un error al intentar pagar.,es
+"¿Por qué han cancelado el vuelo a Madrid?",es
+La tripulación de cabina fue muy amable y profesional.,es
+Mi maleta ha llegado rota.,es
+La aplicación móvil no funciona correctamente.,es
+El vuelo se ha retrasado más de tres horas.,es
+Quisiera presentar una queja sobre el personal de facturación.,es
+La comida a bordo estaba fría.,es
+"Cómo puedo solicitar una compensación por el vuelo cancelado?",es
+He perdido mi tarjeta de embarque.,es
+"El pago con mi tarjeta es rechazado en la web.",es
+"Gracias por su ayuda, el servicio fue excelente.",es
+La cabina del avión estaba sucia.,es
+No puedo seleccionar mi asiento en la aplicación.,es
+La rueda de mi maleta está rota.,es
+"¿Cuándo empieza el embarque para el vuelo a Barcelona?",es
+Ayuda,es
+Cancelado,es
+Gracias,es
+"Equipaje perdido.",es
+Roto,es
+"Vuelo retrasado.",es
+Mal servicio,es
+"Mon bagage a été perdu sur le vol pour Paris.",fr
+Le site web affiche une erreur de paiement.,fr
+Pourquoi mon vol a-t-il été annulé ?,fr
+"Le personnel de bord était très sympathique.",fr
+Ma valise est arrivée endommagée.,fr
+Votre application mobile ne cesse de planter.,fr
+Le vol a plus de deux heures de retard.,fr
+Je souhaite déposer une réclamation concernant un agent au sol.,fr
+Le repas servi à bord était froid.,fr
+"Comment puis-je obtenir une indemnisation pour l'annulation?",fr
+J'ai perdu ma carte d'embarquement.,fr
+"Le paiement en ligne ne fonctionne pas.",fr
+"Merci pour l'excellent service et votre aide.",fr
+La cabine de l'avion n'était pas propre.,fr
+Je n'arrive pas à choisir mon siège en ligne.,fr
+"La poignée de ma valise est cassée.",fr
+À quelle heure commence l'embarquement ?,fr
+Au secours,fr
+Annulé,fr
+Merci,fr
+"Bagage perdu.",fr
+Cassé,fr
+"Vol retardé.",fr
+Service client horrible,fr
