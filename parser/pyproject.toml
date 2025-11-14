@@ -1,0 +1,14 @@
+[project]
+name = "parser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "asyncio>=4.0.0",
+    "pandas>=2.3.3",
+    "playwright>=1.56.0",
+    "playwright-stealth>=2.0.0",
+    "undetected-chromedriver>=3.5.5",
+]
