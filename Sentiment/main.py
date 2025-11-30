@@ -1,4 +1,3 @@
-# main.py
 
 import pandas as pd
 from transformers import pipeline
@@ -25,7 +24,6 @@ def analyze_sentiment(file_path: str):
     Args:
         file_path (str): Путь к CSV-файлу с данными.
     """
-    # --- 1. Настройки и загрузка данных ---
     warnings.filterwarnings("ignore", category=UserWarning, module="transformers")
 
     try:
@@ -36,7 +34,6 @@ def analyze_sentiment(file_path: str):
         print("Пожалуйста, убедитесь, что файл находится в папке 'data'.")
         return
 
-    # --- 2. Инициализация модели ---
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
     print(f"\nИнициализация модели 'tabularai/multilingual-sentiment-analysis' на устройстве: {device.upper()}...")
     
@@ -46,10 +43,9 @@ def analyze_sentiment(file_path: str):
         device=device
     )
 
-    texts = df['message_text'].tolist()
-    true_labels = df['expected_sentiment'].tolist()
+    texts = df['Review'].tolist()
+    true_labels = df['Sentiment'].tolist()
 
-    # --- 3. Получение и обработка предсказаний ---
     print(f"\n🚀 Запускаю анализ сентимента для {len(texts)} текстов... Это может занять некоторое время на CPU.")
     
     predictions_raw = sentiment_analyzer(texts, batch_size=16, truncation=True)
@@ -59,7 +55,6 @@ def analyze_sentiment(file_path: str):
     predicted_labels = [normalize_sentiment_label(pred['label']) for pred in predictions_raw]
     true_labels_lower = [str(label).lower() for label in true_labels]
     
-    # --- 4. Расчет точности и вывод результатов ---
     accuracy = sum(1 for pred, true in zip(predicted_labels, true_labels_lower) if pred == true) / len(true_labels_lower)
 
     print("\n------------------- РЕЗУЛЬТАТЫ -------------------")
@@ -71,20 +66,14 @@ def analyze_sentiment(file_path: str):
     print(report)
     
 
-    # Добавляем предсказания в DataFrame
     df['predicted_sentiment'] = predicted_labels
-    df['is_correct'] = (df['expected_sentiment'].str.lower() == df['predicted_sentiment'])
+    df['is_correct'] = (df['Sentiment'].str.lower() == df['predicted_sentiment'])
 
-    # Устанавливаем опцию pandas для отображения полного текста в колонках
     pd.set_option('display.max_colwidth', None)
     
     print("\n🔍 Первые 30 строк с результатами предсказаний:")
     print(df[['message_text', 'expected_sentiment', 'predicted_sentiment', 'is_correct']].head(30).to_string())
-    # ==============================================================================
 
-    # Опционально: сохранение полного файла с результатами
-    # df.to_csv('data/results_with_predictions.csv', index=False)
-    # print("\n💾 Полные результаты сохранены в файл 'data/results_with_predictions.csv'")
 
 if __name__ == "__main__":
     DATA_FILE_PATH = "data/dataset.csv"
