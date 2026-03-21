@@ -2,3 +2,5 @@
 !dela_manager/
 !dela_manager/**
 !.gitignore
+__pycache__/
+*.pyc
