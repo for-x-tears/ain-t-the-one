@@ -31,3 +31,16 @@ class TaskUpdate(BaseModel):
     title: Optional[str] = Field(None, min_length=3, max_length=100)
     description: Optional[str] = Field(None, max_length=500)
     completed: Optional[bool] = None
+    
+
+class CommentCreate(BaseModel):
+    text: str = Field(..., min_length=1, max_length=1000)
+
+class CommentResponse(BaseModel):
+    id: UUID
+    text: str
+    task_id: UUID
+    owner_id: UUID
+
+    class Config:
+        from_attributes = True
