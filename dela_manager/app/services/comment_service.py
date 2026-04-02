@@ -9,15 +9,14 @@ class CommentService:
         self.comment_repo = comment_repo
         self.task_repo = task_repo
 
-    def get_all(self, task_id: UUID, owner_id: UUID):
-        # сначала проверяем что задача существует и принадлежит этому юзеру
-        task = self.task_repo.get_by_id(task_id, owner_id)
+    async def get_all(self, task_id: UUID, owner_id: UUID):
+        task = await self.task_repo.get_by_id(task_id, owner_id)
         if not task:
             return None
-        return self.comment_repo.get_all_by_task(task_id)
+        return await self.comment_repo.get_all_by_task(task_id)
 
-    def create(self, comment_data: CommentCreate, task_id: UUID, owner_id: UUID):
-        task = self.task_repo.get_by_id(task_id, owner_id)
+    async def create(self, comment_data: CommentCreate, task_id: UUID, owner_id: UUID):
+        task = await self.task_repo.get_by_id(task_id, owner_id)
         if not task:
             return None
-        return self.comment_repo.create(comment_data, task_id, owner_id)
+        return await self.comment_repo.create(comment_data, task_id, owner_id)

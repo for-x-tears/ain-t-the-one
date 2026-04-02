@@ -7,27 +7,23 @@ class TaskService:
     def __init__(self, repo: TaskRepository):
         self.repo = repo
 
-    def get_all(self, owner_id: UUID):
-        return self.repo.get_all(owner_id)
+    async def get_all(self, owner_id: UUID):
+        return await self.repo.get_all(owner_id)
 
-    def get_by_id(self, task_id: UUID, owner_id: UUID):
-        task = self.repo.get_by_id(task_id, owner_id)
-        
+    async def get_by_id(self, task_id: UUID, owner_id: UUID):
+        return await self.repo.get_by_id(task_id, owner_id)
+
+    async def create_task(self, task_data: TaskCreate, owner_id: UUID):
+        return await self.repo.create(task_data, owner_id)
+
+    async def update_task(self, task_id: UUID, task_data: TaskUpdate, owner_id: UUID):
+        task = await self.repo.get_by_id(task_id, owner_id)
         if not task:
             return None
-        return task
+        return await self.repo.update(task_id, task_data, owner_id)
 
-    def create_task(self, task_data: TaskCreate, owner_id: UUID):
-        return self.repo.create(task_data, owner_id)
-
-    def update_task(self, task_id: UUID, task_data: TaskUpdate, owner_id: UUID):
-        task = self.repo.get_by_id(task_id, owner_id)
+    async def delete_task(self, task_id: UUID, owner_id: UUID):
+        task = await self.repo.get_by_id(task_id, owner_id)
         if not task:
             return None
-        return self.repo.update(task_id, task_data, owner_id)
-
-    def delete_task(self, task_id: UUID, owner_id: UUID):
-        task = self.repo.get_by_id(task_id, owner_id)
-        if not task:
-            return None
-        return self.repo.delete(task_id, owner_id)
+        return await self.repo.delete(task_id, owner_id)
