@@ -1,10 +1,13 @@
 fastapi
-uvicorn
-sqlalchemy
+uvicorn[standard]
+sqlalchemy[asyncio]
 asyncpg
 psycopg2-binary
 pydantic
-python-jose
+pydantic-settings
+python-jose[cryptography]
 bcrypt
 httpx
 pytest
+minio
+python-multipart

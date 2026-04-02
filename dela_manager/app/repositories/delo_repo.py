@@ -1,11 +1,10 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select, update
 from app.models import Task
 from app.schems import TaskCreate, TaskUpdate
 from uuid import UUID
 
 class TaskRepository:
-
     def __init__(self, db: AsyncSession):
         self.db = db
 
@@ -49,4 +48,15 @@ class TaskRepository:
             return None
         await self.db.delete(task)
         await self.db.commit()
+        return task
+
+    # === НОВЫЙ МЕТОД ДЛЯ АВАТАРКИ ===
+    async def update_avatar_url(self, task_id: UUID, avatar_url: str, owner_id: UUID) -> Task | None:
+        task = await self.get_by_id(task_id, owner_id)
+        if not task:
+            return None
+
+        task.avatar_url = avatar_url
+        await self.db.commit()
+        await self.db.refresh(task)
         return task
